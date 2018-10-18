@@ -1,23 +1,42 @@
+
+body{
+    background-color: palegreen
+}
 #Name{
     color:cornflowerblue;
     text-align: center;
     border: 2px ridge orange;
     padding: 2%;
     background-color:black;
-    text-shadow: 1px 1px orange;
+    text-shadow: 2.5px 1.3px 5px orange;
     border-top-left-radius: 5px;
+    width:500px;
+    position: relative;
+    left:33%;
 }
 #TagLine{
+    font-size: 120%;
     background-color:green;
+    position: relative;
+    left:41.8%;
+    bottom:55px;
+    border:2px inset;
+    width: 210px
 }
+
+
 
 #TopMenu{
-    background-color: red;
+    color:cornflowerblue;
+    background-color:white;
+    border: 1px transparent black;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    
 }
 
-#Menu{
-    background-color: blue;
-}
+
 
 img{
     height: 50%;
@@ -27,35 +46,100 @@ img{
     border: 2px solid black;
 }
 
-footer{
-    background-color:cornflowerblue;
-    text-align: right;
-    font-size: 10px;
-    border: 1px groove blue;
-    margin: 0 0 0 1630px;
-    padding: 0 10 0 10px;
+/* #box1{
+    border: 1px solid black;
+    background-color:#C8A165;
+    position: relative;
+    width: 250px;
+    height:250px;
+    left: 250px;
+    bottom:800px;
+} */
+
+
+/* #Menu{
+    background-color: blue;
+    position: relative;
+    border: 1px solid red;
+} */
+
+.deal{
+    color:white;
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+    width: 150px;
+    padding: 0px 0px 0px 15px; 
+
 }
 
 .Object{
     background-color:purple;
+    border: 1px solid white;
+    position: relative;
+    width: 250px;
+    padding: 0px 0px 0px 20px;
 }
 
 .FourLoop{
     background-color:mediumseagreen;
+    border: 1px solid yellow;
+    position:relative;
+    width: 250px;
+    padding: 0px 0px 0px 20px;
 }
 
 .TheDom{
     background-color:pink;
+    border: 2px solid salmon;
+    position: relative;
+    width: 250px;
+    padding: 0px 0px 0px 20px;
 }
 
 .Conjuction{
     background-color:orange;
+    border: 2px solid gray;
+    position: relative;
+    width: 250px;
+    padding: 0px 0px 0px 20px;
 }
 
-.Content{
-    background-color: yellow;
+.Sub{
+    color:white;
+    background-color: black;
+    position: relative;
+    width: 300px;
+    padding: 5px 10px 15px 20px
 }
+
+/* .Content{
+    background-color: yellow;
+    border: 1px solid black;
+} */
 
 #Info{
+    color: purple;
     background-color: grey;
+    position:relative;
+    padding: 1px 0px 2px 10px;
+    width: 250px;
+    left:50%;
+    bottom:50%;
+}
+
+footer{
+    background-color:cornflowerblue;
+    text-align: center;
+    font-size: 10px;
+    border: 1px hidden blue;
+    margin: 0 0 0 1630px;
+    right: 850px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 2px;
+    position:relative;
+    padding: 0 10 0 10px;
+    text-shadow: 2px 2px 2px white;
+    box-shadow: 5px 5px 15px 2px white, -5px -1px 15px 2px white;
 }
