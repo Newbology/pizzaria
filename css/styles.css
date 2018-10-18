@@ -7,7 +7,7 @@ body{
         color: red;
         font-size: 200%;
         font-family: 'Creepster', serif;
-        text-shadow: 2px 1px 5px black;
+        text-shadow: 5px -1px 5px black; 
         letter-spacing: 2px;        
 }
 #Name{
@@ -29,17 +29,16 @@ body{
     background-color:orange;
     border:2px outset;
     color:blue;
-    position: absolute;
 }
 #TagLine{
+    position: absolute;
     font-size: 120%;
     background-color:blue;
     color:orange;
-    position: absolute;
-    border:2px inset;
+    border:2px inset black;
     width: 210px;
-    right:650px;
-    bottom:660px;
+    right:825px;
+    bottom:860px;
 }
 
 
