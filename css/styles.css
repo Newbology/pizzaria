@@ -1,6 +1,6 @@
 
 body{
-    background-color:palegoldenrod;
+    background-color:white;
     margin:0 0 0 0;
     padding:0;
 }
@@ -8,16 +8,19 @@ body{
 
 #Name:hover{
         background-color: transparent;
+        text-decoration: none;
         color: red;
-        font-size: 200%;
+        font-size: 300%;
         font-family: 'Creepster', serif;
         text-shadow: 5px -1px 5px rgb(0, 0, 0); 
-        letter-spacing: 2px;   
+        letter-spacing: 10px;   
         height:42px;  
         transition: 1.3s;   
 }
 #Name{
-    font-size: 200%;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 300%;
     color:yellow;
     text-align: center;
     border: 2px ridge transparent;
@@ -26,35 +29,64 @@ body{
     box-shadow: inset 0 0 0 3px transparent;
     border-top-left-radius: 5px;
     width: 376px;
-    top: -10px;
+    top: -27.5px;
     left:744px;
     position: fixed;
-    height: 40px;
+    height: 100px;
     padding:0px 0px 5px 0px;
     border-radius: 100px;
     transition: 1.3s;
     z-index: 2;
 }
 
-#TagLine:hover{
-    background-color:orange;
+#TagLine{
     border:2px outset;
     color:blue;
+    animation: blinker .55s step-start infinite;
 }
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
 
 #TagLine{
     font-size: 120%;
-    border:2px inset black;
-    padding:0 0 0 0 ;
-    background-color:blue;
+    border:2px inset blue;
+    padding:10px 0 0 0 ;
+    background-color:red;
     position:fixed;
-    color:orange;
+    color:white;
     z-index: 2;
-    width: 210px;
-    left:825px;
-    top:50px;
+    text-align: center;
+    height:40px;
+    width: 310px;
+    left:225px;
+    top:10px;
+    z-index: 4;
 
 }
+
+#TagLine3{
+    font-size: 120%;
+    border:2px inset red;
+    padding:10px 0 0 0 ;
+    background-color:blue;
+    position:fixed;
+    color:white;
+    z-index: 2;
+    text-align: center;
+    height:40px;
+    width: 310px;
+    left:225px;
+    top:.8px;
+    z-index: 3;
+
+}
+
+
 
 #deals{
     background-color: black;
@@ -285,7 +317,12 @@ img{
     left:50%;
     bottom:50%;
 }
-
+footer:hover{
+    font-size: 14px;
+    height: 70px;
+    width: 300px;
+    transition: 1s;
+}
 footer{
     background-color:cornflowerblue;
     text-align: center;
@@ -296,10 +333,11 @@ footer{
     padding: 0px 0px 0px 2px;
     padding: 3px 10px 0px 10px;
     width: 200px;
-    text-shadow: 2px 2px 2px white;
+    /* text-shadow: 2px 2px 2px white; */
     box-shadow: 5px 5px 15px 2px white, -5px -1px 15px 2px white;
     margin-left:auto;
     margin-right:auto;
+    transition:1s;
 }
  /* #borderLeft{
     background-color:aquamarine;
