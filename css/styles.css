@@ -4,6 +4,8 @@ body{
     margin:0 0 0 0;
     padding:0;
 }
+
+
 #Name:hover{
         background-color: transparent;
         color: red;
@@ -24,12 +26,14 @@ body{
     box-shadow: inset 0 0 0 3px transparent;
     border-top-left-radius: 5px;
     width: 376px;
+    top: -10px;
+    left:744px;
+    position: fixed;
     height: 40px;
     padding:0px 0px 5px 0px;
     border-radius: 100px;
-    margin-left:auto;
-    margin-right:auto;
     transition: 1.3s;
+    z-index: 2;
 }
 
 #TagLine:hover{
@@ -38,16 +42,21 @@ body{
     color:blue;
     position: relative;
 }
+
 #TagLine{
     font-size: 120%;
     background-color:blue;
     color:orange;
     border:2px inset black;
-    position: relative;
+    position: fixed;
     width: 210px;
-margin-left: auto;
-margin-right: auto;
+    left:825px;
+    bottom: 860px;
+z-index: 2;
 }
+
+
+
 #interactiveMap{
     border: 2px  solid black;
     position:relative;
@@ -58,18 +67,59 @@ margin-right: auto;
 }
 
 
-
+/* ----------------------------------------- */
 #TopMenu{
-    color:cornflowerblue;
-    background-color:white;
+    background-color:green;
     border: 1px transparent black;
-    width: 300px;
-    height: 30px;
-    position: relative;
+    height: 120px;
+    width:100%;
+    top:0;
+    position: fixed;
+    z-index: 1;
+    margin-top:0px;
     
 }
 
+#today1{
+    text-align: center;
+    border: 2px solid black;
+    width:110px;
+    padding: 1px 1px 1px 1px;
+    position:fixed;
+    top:95px;
+}
 
+#menu1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+    width:110px;
+    position:fixed;
+    top:95px;
+    left:155px;
+}
+
+#subscribe1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+    width:110px;
+    position:fixed;
+    top:95px;
+    left: 270px;
+
+}
+
+#info1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+    width:110px;
+    position:fixed;
+    top:95px;
+    left:385px;
+}
+/* ----------------------------------------- */
 
 img{
     height: 50%;
@@ -77,6 +127,7 @@ img{
     position: absolute;
     right: 100px;
     border: 2px solid black;
+    left:700px;
 }
 /* 
 #box1{
@@ -96,13 +147,15 @@ img{
     border: 1px solid red;
 } */
 
-.deal{
+#deal{
     color:white;
     background-color: blue;
     border: 1px solid black;
     position: relative;
     width: 150px;
-    padding: 0px 0px 0px 15px; 
+    left:500px;
+    padding: 0px 0px 0px 15px;
+     
 }
 
 #Object{
