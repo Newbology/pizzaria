@@ -237,7 +237,7 @@ img{
     background-color: transparent;
     font-size: 150%;
     position:fixed;
-    left: 1314;
+    left: 1304;
     top:-15px;
 }
 
@@ -246,25 +246,30 @@ img{
     border: 0 solid transparent;
     font-size:150%;
     position:fixed;
-    left: 1315px;
+    left: 1304px;
     top:15px;
 }
-
+#submit{
+    position:fixed;
+    top:70px;
+    left:1480;
+    width:173px;
+}
 
 #firstName{
     position:fixed;
-    top:95px;
+    top:70px;
     left: 1304;
 }
 #lastName{
     position:fixed;
     top:95px;
-    left:1480;
+    left:1304;
 }
 #email{
     position:fixed;
     top:95px;
-    left:1655px;
+    left:1480px;
 }
 /* .Content{
     background-color: yellow;
