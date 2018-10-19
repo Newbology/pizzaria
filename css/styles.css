@@ -1,6 +1,8 @@
 
 body{
-    background-color: palegreen
+    background-color:palegoldenrod;
+    margin:0 0 0 0;
+    padding:0;
 }
 #Name:hover{
         background-color: transparent;
@@ -34,6 +36,7 @@ body{
     background-color:orange;
     border:2px outset;
     color:blue;
+    position: relative;
 }
 #TagLine{
     font-size: 120%;
@@ -42,8 +45,16 @@ body{
     border:2px inset black;
     position: relative;
     width: 210px;
-    left: 820px;
-    bottom:0px;
+margin-left: auto;
+margin-right: auto;
+}
+#interactiveMap{
+    border: 2px  solid black;
+    position:relative;
+    width: 600;
+    height:450;
+    bottom: 200px;
+    left:1200px;
 }
 
 
@@ -165,3 +176,21 @@ footer{
     margin-left:auto;
     margin-right:auto;
 }
+ /* #borderLeft{
+    background-color:aquamarine;
+    height: 1900px;
+    width:300px;
+    bottom:1900px;
+    margin-right:auto;
+    position: relative;
+    z-index: -1;
+    } */
+  /* #borderRight{
+        background-color: aqua;
+        width: 300px;
+        height:1200px;
+        margin-left:auto;
+       bottom:1700px;
+        position: static;
+        z-index: -1;
+    } */
