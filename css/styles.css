@@ -11,7 +11,7 @@ body{
         color: red;
         font-size: 200%;
         font-family: 'Creepster', serif;
-        text-shadow: 5px -1px 5px black; 
+        text-shadow: 5px -1px 5px rgb(0, 0, 0); 
         letter-spacing: 2px;   
         height:42px;  
         transition: 1.3s;   
@@ -40,22 +40,27 @@ body{
     background-color:orange;
     border:2px outset;
     color:blue;
-    position: relative;
 }
 
 #TagLine{
     font-size: 120%;
-    background-color:blue;
-    color:orange;
     border:2px inset black;
-    position: fixed;
+    padding:0 0 0 0 ;
+    background-color:blue;
+    position:fixed;
+    color:orange;
+    z-index: 2;
     width: 210px;
     left:825px;
-    bottom: 860px;
-z-index: 2;
+    top:50px;
+
 }
 
-
+#deals{
+    background-color: black;
+    border: 5px solid black;
+    text-align:center;
+}
 
 #interactiveMap{
     border: 2px  solid black;
@@ -79,45 +84,84 @@ z-index: 2;
     margin-top:0px;
     
 }
-
-#today1{
+#today1:hover a{
+    color: white;
+    background-color:gray;
+    text-decoration:none;
+    transition: 1s;
+}
+#today1 a {
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color:green;
+    text-decoration: none;
     text-align: center;
-    border: 2px solid black;
+    border:2px solid transparent;
     width:110px;
     padding: 1px 1px 1px 1px;
     position:fixed;
-    top:95px;
+    top:75px;
+    transition: 1s;
 }
-
-#menu1{
+#menu1:hover a{
+    color:white;
+    background-color: gray;
+    text-decoration: none;
+    transition: 1s;
+}
+#menu1 a{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color:green;
+    text-decoration: none;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid transparent;
     padding: 1px 1px 1px 1px;
     width:110px;
     position:fixed;
     top:95px;
     left:155px;
+    transition:1s;
 }
-
-#subscribe1{
+#subscribe1:hover a{
+    color:white;
+    background-color:gray;
+    text-decoration: none;
+    transition:1s;
+}
+#subscribe1 a {
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color:green;
+    text-decoration: none;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid transparent;
     padding: 1px 1px 1px 1px;
     width:110px;
     position:fixed;
     top:95px;
     left: 270px;
-
+    transition:1s;
 }
-
-#info1{
+#info1:hover a{
+ color:white;
+ background-color: gray;
+ text-decoration: none;
+ transition:1s;
+}
+#info1 a {
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    background-color:green;
+    text-decoration: none;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid transparent;
     padding: 1px 1px 1px 1px;
     width:110px;
     position:fixed;
     top:95px;
     left:385px;
+    transition:1s;
 }
 /* ----------------------------------------- */
 
@@ -146,17 +190,6 @@ img{
     position: relative;
     border: 1px solid red;
 } */
-
-#deal{
-    color:white;
-    background-color: blue;
-    border: 1px solid black;
-    position: relative;
-    width: 150px;
-    left:500px;
-    padding: 0px 0px 0px 15px;
-     
-}
 
 #Object{
     background-color:purple;
@@ -192,13 +225,47 @@ img{
 
 #Sub{
     color:white;
-    background-color: black;
-    position: absolute;
-    width: 300px;
-
-    padding: 5px 10px 15px 20px
+    background-color: transparent;
+    position: fixed;
+    width: 500px;
+    height: 102px;
+    padding: 5px 10px 15px 20px;
+    left: 1300px;
+    margin-top:-18;
+}
+#subTitle{
+    background-color: transparent;
+    font-size: 150%;
+    position:fixed;
+    left: 1314;
+    top:-15px;
 }
 
+#deals{
+    background-color: transparent;
+    border: 0 solid transparent;
+    font-size:150%;
+    position:fixed;
+    left: 1315px;
+    top:15px;
+}
+
+
+#firstName{
+    position:fixed;
+    top:95px;
+    left: 1304;
+}
+#lastName{
+    position:fixed;
+    top:95px;
+    left:1480;
+}
+#email{
+    position:fixed;
+    top:95px;
+    left:1655px;
+}
 /* .Content{
     background-color: yellow;
     border: 1px solid black;
