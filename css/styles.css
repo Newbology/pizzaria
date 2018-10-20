@@ -391,7 +391,9 @@ footer{
 }
 #CopyRight a{
     text-decoration: none;
-    color: black;
+    color: transparent;
+    bottom:20px;
+    position:relative;
 }
  /* #borderLeft{
     background-color:aquamarine;
