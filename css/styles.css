@@ -1,6 +1,6 @@
 
 body{
-    background-color:white;
+    background-color:rgba(255, 179, 64, 0.651);
     margin:0 0 0 0;
     padding:0;
 }
@@ -99,8 +99,8 @@ body{
     position:relative;
     width: 600;
     height:450;
-    bottom: 200px;
-    left:1200px;
+    bottom:1200px;
+    left:2px;
 }
 
 
@@ -197,14 +197,15 @@ body{
 }
 /* ----------------------------------------- */
 
-#pizzaman{
-    height: 50%;
-    width: 30%;
-    position: absolute;
-    right: 100px;
+#pizzaman img{
+    width: 500px;
+    position: relative;
     border: 2px solid black;
-    left:700px;
+    z-index: -1;
+    top:122px;
+    left:2px;
 }
+
 /* 
 #box1{
     border: 1px solid black;
@@ -222,38 +223,82 @@ body{
     position: relative;
     border: 1px solid red;
 } */
-
+ 
 #Object{
-    background-color:purple;
-    border: 1px solid white;
+    text-align:center;
+    background-color:tan;
+    border: 1px solid transparent;
     position: relative;
-    width: 250px;
+    width: 300px;
     padding: 0px 0px 0px 20px;
+    left: 1075px;
+    top:-350px;
+
+}
+#objectPic{
+    border: 2px solid transparent;
+    right:10px;
+    position: relative;
+} 
+
+
+    
+#FourLoop{
+    text-align:center;
+    background-color:tan;
+    border: 1px solid transparent;
+    position:absolute;
+    width: 300px;
+    padding: 0px 0px 0px 20px;
+    left:1474px;
+    bottom:364px;
+    
 }
 
-#FourLoop{
-    background-color:mediumseagreen;
-    border: 1px solid yellow;
+#fourLoopPic{
+    border: 2px solid transparent;
     position:relative;
-    width: 250px;
-    padding: 0px 0px 0px 20px;
+    right:10px;
 }
+
 
 #TheDom{
-    background-color:pink;
-    border: 2px solid salmon;
+    text-align:center;
+    background-color:tan;
+    border: 2px solid transparent;
     position: relative;
-    width: 250px;
+    width: 310px;
     padding: 0px 0px 0px 20px;
+    left:1073px;
+    bottom:250px;
+
 }
 
-#Conjuction{
-    background-color:orange;
-    border: 2px solid gray;
-    position: relative;
-    width: 250px;
-    padding: 0px 0px 0px 20px;
+#domPic{
+    border: 2px solid transparent;
+    right:16px;
+    position:relative;
 }
+
+
+#Conjuction{
+    text-align:center;
+    background-color:tan;
+    border: 2px solid transparent;
+    position: relative;
+    width: 322px;
+    left:1474px;
+    bottom:755px;
+}
+
+#conjPic{
+    border: 2px solid transparent;
+    left:5px;
+    position:relative;
+}
+
+
+
 
 #Sub{
     color:white;
@@ -307,15 +352,20 @@ body{
     background-color: yellow;
     border: 1px solid black;
 } */
-
+#aboutUs{
+    text-align:center;
+    padding:6 10 6 10;
+}
 #Info{
-    color: purple;
-    background-color: grey;
+    color: black;
+    background-color: white;
     position: relative;
     padding: 1px 0px 2px 10px;
-    width: 250px;
-    left:50%;
-    bottom:50%;
+    width: 500px;
+    height:465px;
+    left:525px;
+    bottom:2155px;
+
 }
 footer:hover{
     font-size: 14px;
@@ -338,6 +388,10 @@ footer{
     margin-left:auto;
     margin-right:auto;
     transition:1s;
+}
+#CopyRight a{
+    text-decoration: none;
+    color: black;
 }
  /* #borderLeft{
     background-color:aquamarine;
